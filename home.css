@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col1{
+    display: inline;
+    float: left;
+}
+li,ul{
+    display: inline;
+}
+
+ul{
+    float: right;
+    position: relative;
+    top: 30px;
+    margin-right:10% ;
+}
+.col2 a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.row1{
+    border-color:black ;
+    background-color: red;
+    border-style:solid ;
+    height: 105px;
+}
+.col3{
+   display: inline;
+   position: relative;
+   right: 10px;
+  
+  
+}
+
+.col4{
+    display: inline;
+    font-size: 15px;
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 50px;
+   font-weight: bold;
+   text-transform: capitalize;
+   font-family:fantasy;
+
+
+}
+.row2{
+    height: 305px;
+    background-color: lightblue;
+    border-color:black;
+    border-style: solid;
+    color: white;
+    
+}

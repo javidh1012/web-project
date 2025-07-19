@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div h1{
+            text-align: center;
+            text-transform: capitalize;
+        }
+        form{
+            position: relative;
+            top: 30px;
+            background-image: url("desktop-wallpaper-abstract-dark-background-form-forms.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+           
+        }
+        table{
+            background-image: url("abstract-3304213_640.webp");
+            border-color:black;
+            border-style:solid ;
+            height: 500px;
+        input{
+            height: 25px;
+            width: 80%;
+        }
+        select{
+            width: 80%;
+        }
+        div button{
+            background-color: darkgray;
+            color: white;
+        }
+        div  button:hover{
+            background-color:white ;
+            color: darkgray;
+            cursor: pointer;
+        }
+    </style>
+    <section id="Registration">
+    <div> 
+       <h1>Registration form for intern</h1>
+    <form action="connect.php" method="POST">
+        <center>
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input type="text" placeholder="Enter your name" name="Name"></td>
+            </tr>
+            <tr>
+                <td>gender</td>
+                <td>
+                    <select name="gender">
+                        <option value=""></option>
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td>Email Address</td>
+                <td><input type="email" placeholder="Enter your email" name="Email_Address"></td>
+            </tr>
+            <tr>
+                <td>Phone Number</td>
+                <td><input type="tel" placeholder="Enter your mobile Number" name="Phone_Number"></td>
+            </tr>
+            <tr>
+                <td>College Name</td>
+                <td><input type="text" placeholder="Enter your College Name" name="College_Name"></td>
+            </tr>
+            <tr>
+                <td>Degree/Branch</td>
+                <td><input type="text" placeholder="Enter your Degree/Branch" name="Degree_Branch"></td>
+            </tr>
+            <tr>
+                <td>Resume Upload</td>
+                <td><input type="file" placeholder="Upload your Resume" name="Resume_Upload"></td>
+            </tr>
+            <tr>
+                <td>choose the intern</td>
+                <td>
+                    <select name="choose_the_intern">
+                        <option value=""></option>
+                        <option value="Web Development">Web Development</option>
+                        <option value="AI">AI</option>
+                        <option value="Machine Learniing">Machine Learniing</option>
+                        <option value="Robotics">Robotics</option>
+                    </select>
+                </td>
+
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>submit</button></td>
+                <td><button>resert</button></td>
+            </tr>
+        </table>
+        </center>
+    </form>
+    </div>  
+</section>
+</body>
+</html>
